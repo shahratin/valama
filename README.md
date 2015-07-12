@@ -57,6 +57,8 @@ Activate [Valama daily PPA ](https://launchpad.net/~valama-dev/+archive/valama-d
 ### Installation ###
  1. `sudo make install`
  1. `sudo ldconfig` (to update linker cache for the shared Guanako helper library)
+ 1. `echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib" >> ~/.bashrc` may be needed
+		
 
 This will automatically install and compile gsettings schemas. (You can
 disable installtion/removal hooks during compile time with
